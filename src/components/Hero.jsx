@@ -90,7 +90,7 @@ const Hero = () => {
   }, [currentIndex, nextSlide]);
 
   return (
-    <div className="w-full h-[600px] bg-black  p-4 m-auto relative group ">
+    <div className="w-full h-[620px] bg-black  p-4 m-auto relative group ">
       {/* Overlay */}
       <div className="absolute h-full max-h-[600px] flex flex-col justify-end">
         <h1 className="text-slate-200 font-bold text-xl sm:text-3xl md:text-4xl px-4 mb-3">
