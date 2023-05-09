@@ -92,7 +92,7 @@ const Hero = () => {
   return (
     <div className="max-w-[1640px] bg-black h-[600px] p-4 m-auto relative group ">
       {/* Overlay */}
-      <div className="absolute w-[1495px] h-full max-h-[600px] bg-black/40 flex flex-col justify-end">
+      <div className="absolute w-[1495px] h-full max-h-[600px] flex flex-col justify-end">
         <h1 className="text-white font-bold text-xl sm:text-3xl md:text-4xl px-4 mb-3">
           SKaTe Or
         </h1>
