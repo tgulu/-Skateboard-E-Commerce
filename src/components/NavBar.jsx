@@ -15,10 +15,10 @@ import { MdSkateboarding } from "react-icons/md";
 const NavBar = () => {
   const [nav, setNav] = useState(false);
 
-  const [mode, setMode] = useState('online');
+  const [mode, setMode] = useState("online");
 
   const handleClick = () => {
-    setMode(mode === 'online' ? 'instore' : 'online');
+    setMode(mode === "online" ? "instore" : "online");
   };
 
   return (
@@ -44,34 +44,36 @@ const NavBar = () => {
         </div>
 
         <div className="hidden lg:flex items-center bg-gray-white border border-white rounded-full py-1 px-6 mx-20 text-sm">
-      <button
-        className={`bg-${mode === 'online' ? 'white' : 'black'} text-${
-          mode === 'online' ? 'black' : 'white'
-        } rounded-full px-3  outline hover:outline-2 border border-black transition-transform`}
-        onClick={handleClick}
-        style={{
-          transform: mode === 'online' ? 'translateX(-25%)' : 'translateX(20%)',
-        }}
-      >
-        {mode === 'online' ? 'oNLiNe' : 'iNSToRe'}
-      </button>
-    </div>
+          <button
+            className={`bg-${mode === "online" ? "white" : "black"} text-${
+              mode === "online" ? "black" : "white"
+            } rounded-full px-3  outline hover:outline-2 border border-black transition-transform`}
+            onClick={handleClick}
+            style={{
+              transform:
+                mode === "online" ? "translateX(-25%)" : "translateX(20%)",
+            }}
+          >
+            {mode === "online" ? "oNLiNe" : "iNSToRe"}
+          </button>
+        </div>
       </div>
 
       {/* search bar */}
 
-      <div className=" bg-white rounded-full mx-20 flex items-center px-3 w-[400px] sm:w-[200px] lg:w-[700px]">
+      <div className="bg-white rounded-full mx-4 md:mx-20 items-center px-3 flex w-full md:w-[400px] lg:w-[700px]">
         <AiOutlineSearch size={20} />
         <input
-          className="bg-transparent  p-2 w-full focus:outline-none"
+          className="bg-transparent p-2 w-full focus:outline-none text-sm"
           type="text"
-          placeholder="SeaRCH & DeSTRoY"
+          placeholder="SEARCH & DESTROY"
         />
       </div>
 
       {/*basket button*/}
       <button className=" bg-black text-white hidden md:flex rounded-full border border-white  py-2 items-center">
-        <BsBasket size={20} className="mr-2" />BaSKeT
+        <BsBasket size={20} className="mr-2" />
+        BaSKeT
       </button>
 
       {/* Menu for mobile size */}
