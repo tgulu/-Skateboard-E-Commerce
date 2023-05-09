@@ -83,7 +83,7 @@ const Hero = () => {
    // Create a timer that will call the nextSlide function every few seconds
     const timer = setInterval(() => {
       nextSlide();
-    }, 8000);
+    }, 10000);
 
     // clear the timer when the component unmounts
     return () => clearInterval(timer);
