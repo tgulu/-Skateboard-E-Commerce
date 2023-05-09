@@ -22,7 +22,7 @@ const Brands = () => {
   };
 
   return (
-    <div className="bg-black max-w-[1640px] m-auto px-4 py-12">
+    <div className="bg-black w-full m-auto px-4 py-12">
       <h1 className="text-white font-bold text-4xl text-center">WHaT's NeW</h1>
 
       <div className="flex flex-col lg:flex-row justify-center py-10">

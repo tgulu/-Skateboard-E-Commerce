@@ -22,7 +22,7 @@ const NavBar = () => {
   };
 
   return (
-    <div className="max-w-[1640px] mx-auto flex justify-between bg-black items-center p-4">
+    <div className="w-full mx-auto flex justify-between bg-black items-center p-4">
       {/* left side of navbar */}
       <div className="flex items-center">
         <div onClick={() => setNav(!nav)} className="pr-2 cursor-crosshair">
@@ -60,7 +60,7 @@ const NavBar = () => {
 
       {/* search bar */}
 
-      <div className=" bg-white rounded-full mx-20 flex items-center px-3 w-[400px] sm:w-[400px] lg:w-[700px]">
+      <div className=" bg-white rounded-full mx-20 flex items-center px-3 w-[400px] sm:w-[200px] lg:w-[700px]">
         <AiOutlineSearch size={20} />
         <input
           className="bg-transparent  p-2 w-full focus:outline-none"
