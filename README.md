@@ -1,7 +1,7 @@
 # Skateboard E-Commerce Website 
 This is an e-commerce website for skateboard enthusiasts. The website has a variety of features to help users find the skateboarding gear they need.
 
-## 1. URL: 
+## 1. URL: https://axel-stall.netlify.app/
 
 ## 2. Carousel of Skaters
 The website has a carousel that automatically rotates through a set number of skateboard photos. 
