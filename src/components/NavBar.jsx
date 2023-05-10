@@ -51,7 +51,7 @@ const NavBar = () => {
             onClick={handleClick}
             style={{
               transform:
-                mode === "online" ? "translateX(-25%)" : "translateX(20%)",
+                mode === "online" ? "translateX(-27%)" : "translateX(24%)",
             }}
           >
             {mode === "online" ? "oNLiNe" : "iNSToRe"}
@@ -61,7 +61,7 @@ const NavBar = () => {
 
       {/* search bar */}
 
-      <div className="bg-white rounded-full mx-4 md:mx-20 items-center px-3 flex w-full md:w-[400px] lg:w-[700px]">
+      <div className="bg-white rounded-full mx-4 md:mx-10 sm:mx-6  items-center px-3 flex w-full md:w-[350px] lg:w-[700px]">
         <AiOutlineSearch size={20} />
         <input
           className="bg-transparent p-2 w-full focus:outline-none text-sm"
