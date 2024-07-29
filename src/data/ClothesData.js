@@ -191,23 +191,23 @@ export const data = [
   },
   {
   id: 21,
-    name: 'CARNIVORE II',
+    name: 'THE BEACHCOMB JACKET',
     category: 'Jackets',
     image:
-      'https://cdn.shopify.com/s/files/1/0256/6756/7713/products/AXXXXXX-SH-Blondey165759_1080x.jpg?v=1677763571',
+      'https://www.thamesmmxx.com/cdn/shop/files/Beachcomb_Jacket_Front_WEB_900x.png?v=1707233989',
     price: '£120-£160',
-    link:"https://thamesmmxx.com/collections/all/products/carnivore-cardigan-ii",
+    link:"https://www.thamesmmxx.com/collections/all/products/the-beachcomb-jacket",
 
 
   },
   {
     id: 22,
-    name: 'TICKER JACKET',
+    name: 'HECTOR P.G.',
     category: 'Jackets',
     image:
-      'https://cdn.shopify.com/s/files/1/0256/6756/7713/products/Jacket_1080x.jpg?v=1669658889',
+      'https://www.thamesmmxx.com/cdn/shop/files/pgskeletonfrontnew_WEB_900x.png?v=1712910668',
     price: '£160-£200',
-    link:"https://thamesmmxx.com/collections/all/products/ticker-jacket",
+    link:"https://www.thamesmmxx.com/collections/all/products/the-hector-p-g",
 
 
   },
@@ -224,12 +224,12 @@ export const data = [
   },
   {
     id: 24,
-    name: 'Glacier View Puffer Jacket',
+    name: 'Chase City Jacket',
     category: 'Jackets',
     image:
-      'https://www.dickieslife.com/media/catalog/product/cache/a4fef9ead58a23401f302d3c347a5869/D/K/DK0A4Y3WC961-50_1_6.jpg',
+      'https://www.dickieslife.com/media/catalog/product/cache/a4fef9ead58a23401f302d3c347a5869/D/K/DK0A4YQSF901-50_13.jpg',
     price: '£160-£200',
-    link:"https://www.dickieslife.com/uk_en/glacier-view-puffer-jacket-0a4y3w-honey-gold",
+    link:"https://www.dickieslife.com/uk_en/chase-city-jacket-0a4yqs-whitecap-grey",
 
 
   },
