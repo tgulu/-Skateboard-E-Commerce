@@ -140,7 +140,7 @@ const NavBar = () => {
               FootWear
             </li>
 
-            <li className=" text-white text-xl py-4 pr-4 flex">
+            {/* <li className=" text-white text-xl py-4 pr-4 flex">
               <GiJewelCrown
                 size={25}
                 style={{ color: "white" }}
@@ -156,7 +156,7 @@ const NavBar = () => {
                 className="mr-4"
               />
               Promotions
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>
