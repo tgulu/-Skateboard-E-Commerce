@@ -1,16 +1,13 @@
 import React, { useState } from "react";
-import { AiOutlineSearch, AiFillTags } from "react-icons/ai";
+import { AiOutlineSearch } from "react-icons/ai";
 import { BsBasket } from "react-icons/bs";
 import { CgCloseR, CgMenuGridR } from "react-icons/cg";
-import {
-  GiSleevelessJacket,
-  GiConverseShoe,
-  GiJewelCrown,
-  GiSkateboard,
-} from "react-icons/gi";
+import { Link } from "react-scroll";
+import { GiSleevelessJacket, GiSkateboard } from "react-icons/gi";
 
 import { FaTshirt } from "react-icons/fa";
 import { MdSkateboarding } from "react-icons/md";
+import Cards from "./Cards";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -114,7 +111,8 @@ const NavBar = () => {
                 style={{ color: "white" }}
                 className="mr-4"
               />
-              Skate
+              LookBook
+              <Link to={Cards} smooth duration={200}></Link>
             </li>
 
             <li className=" text-white text-xl py-4 pr-4 flex">
@@ -122,11 +120,11 @@ const NavBar = () => {
                 size={25}
                 style={{ color: "white" }}
                 className="mr-4"
-              />{" "}
-              Brands
+              />
+              Items
             </li>
 
-            <li className=" text-white text-xl py-4 pr-4 flex">
+            {/* <li className=" text-white text-xl py-4 pr-4 flex">
               <FaTshirt size={25} style={{ color: "white" }} className="mr-4" />{" "}
               Clothing
             </li>
@@ -138,7 +136,7 @@ const NavBar = () => {
                 className="mr-4"
               />{" "}
               FootWear
-            </li>
+            </li> */}
 
             {/* <li className=" text-white text-xl py-4 pr-4 flex">
               <GiJewelCrown
