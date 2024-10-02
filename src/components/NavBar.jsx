@@ -8,7 +8,6 @@ import { Link } from "react-scroll";
 import { GiSleevelessJacket, GiSkateboard } from "react-icons/gi";
 
 import { MdSkateboarding } from "react-icons/md";
-import Cards from "./Cards";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
