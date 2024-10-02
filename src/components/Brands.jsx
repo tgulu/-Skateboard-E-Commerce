@@ -22,13 +22,15 @@ const Brands = () => {
   };
 
   return (
-    <div className="bg-black w-full m-auto px-4 py-12">
+    <div id="items" className="bg-black w-full m-auto px-4 py-12">
       <h1 className="text-white font-bold text-4xl text-center">WHaT's NeW</h1>
 
       <div className="flex flex-col lg:flex-row justify-center py-10">
         {/* Filter Items */}
         <div className="text-center">
-        <h2 className="font-bold text-2xl text-white justify-center">iTeMS</h2>
+          <h2 className="font-bold text-2xl text-white justify-center">
+            iTeMS
+          </h2>
           <div className="flex justify-between flex-wrap">
             <button
               onClick={() => setBrands(data)}
@@ -76,53 +78,51 @@ const Brands = () => {
               onClick={() => filterType("Jackets")}
               className="m-1 border border-white bg-white hover:bg-black hover:text-white"
             >
-               Jackets
+              Jackets
             </button>
           </div>
         </div>
       </div>
 
-     {/* Filter Price */}
-   <div className="flex flex-col lg:flex-row justify-center py-10">
-      <div className="text-center">
-        <h2 className="font-bold text-2xl text-white">PRiCe</h2>
-        <div className="flex justify-between flex-wrap">
-          <button
-            onClick={() => filterPrice("£0-£40")}
-            className="m-1 border border-white bg-white hover:bg-black hover:text-white"
-          >
-            £0-£40
-          </button>
-          <button
-            onClick={() => filterPrice("£40-£80")}
-            className="m-1 border border-white bg-white hover:bg-black hover:text-white"
-          >
-           £40-£80
-          </button>
+      {/* Filter Price */}
+      <div className="flex flex-col lg:flex-row justify-center py-10">
+        <div className="text-center">
+          <h2 className="font-bold text-2xl text-white">PRiCe</h2>
+          <div className="flex justify-between flex-wrap">
+            <button
+              onClick={() => filterPrice("£0-£40")}
+              className="m-1 border border-white bg-white hover:bg-black hover:text-white"
+            >
+              £0-£40
+            </button>
+            <button
+              onClick={() => filterPrice("£40-£80")}
+              className="m-1 border border-white bg-white hover:bg-black hover:text-white"
+            >
+              £40-£80
+            </button>
 
-          <button
-            onClick={() => filterPrice("£80-£120")}
-            className="m-1 border border-white bg-white hover:bg-black hover:text-white"
-          >
-            £80-£120
-          </button>
+            <button
+              onClick={() => filterPrice("£80-£120")}
+              className="m-1 border border-white bg-white hover:bg-black hover:text-white"
+            >
+              £80-£120
+            </button>
 
-          <button
-            onClick={() => filterPrice("£120-£160")}
-            className="m-1 border border-white bg-white hover:bg-black hover:text-white"
-          >
-            £120-£160
-          </button>
-          <button
-            onClick={() => filterPrice("£160-£200")}
-            className="m-1 border border-white bg-white hover:bg-black hover:text-white"
-          >
-            £160-£200 
-          </button>
-
-          
+            <button
+              onClick={() => filterPrice("£120-£160")}
+              className="m-1 border border-white bg-white hover:bg-black hover:text-white"
+            >
+              £120-£160
+            </button>
+            <button
+              onClick={() => filterPrice("£160-£200")}
+              className="m-1 border border-white bg-white hover:bg-black hover:text-white"
+            >
+              £160-£200
+            </button>
+          </div>
         </div>
-      </div>
       </div>
 
       {/* Display Products */}
