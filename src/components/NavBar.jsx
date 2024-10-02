@@ -5,11 +5,7 @@ import { CgCloseR, CgMenuGridR } from "react-icons/cg";
 import { TbSkateboard } from "react-icons/tb";
 
 import { Link } from "react-scroll";
-import {
-  GiSleevelessJacket,
-  GiSkateboard,
-  GiConverseShoe,
-} from "react-icons/gi";
+import { GiSleevelessJacket, GiSkateboard } from "react-icons/gi";
 
 import { MdSkateboarding } from "react-icons/md";
 import Cards from "./Cards";
