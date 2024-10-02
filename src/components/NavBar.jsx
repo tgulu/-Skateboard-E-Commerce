@@ -143,33 +143,6 @@ const NavBar = () => {
                 Items
               </Link>
             </li>
-
-            {/* <li className=" text-white text-xl py-4 pr-4 flex">
-              <GiConverseShoe
-                size={25}
-                style={{ color: "white" }}
-                className="mr-4"
-              />{" "}
-              FootWear
-            </li> */}
-
-            {/* <li className=" text-white text-xl py-4 pr-4 flex">
-              <GiJewelCrown
-                size={25}
-                style={{ color: "white" }}
-                className="mr-4"
-              />{" "}
-              Accessories
-            </li>
-
-            <li className=" text-white text-xl py-4 pr-4 flex">
-              <AiFillTags
-                size={25}
-                style={{ color: "white" }}
-                className="mr-4"
-              />
-              Promotions
-            </li> */}
           </ul>
         </nav>
       </div>
